@@ -1,0 +1,30 @@
+body{
+    background: rgb(139, 219, 224);
+
+}
+.qr-box{
+    background: rgb(242, 242, 250);
+    width: 220px;
+    height: 350px;
+    margin-top: 15%;
+    margin-left: 43%;
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    color: rgb(187, 185, 183);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+.code img{
+    height: 180px;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
