@@ -1,0 +1,177 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .testimonial-section {
+    text-align: center;
+  }
+  
+  .header-ratings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .header {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #3c0552;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.1em;
+    color: #3c0552;
+  }
+  
+  .ratings {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .rating {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 150px;
+  }
+  
+  .stars {
+    color: #f9c851;
+    font-size: 1.2em;
+    display: block;
+  }
+  
+  .text {
+    display: block;
+    margin-top: 5px;
+    font-size: 1em;
+    color: #4d4d4d;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background: #3c0552;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 350px;
+    box-sizing: border-box;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .info {
+    text-align: left;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  .role {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  .feedback {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .header-ratings {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header {
+      margin-bottom: 20px;
+    }
+  
+    .ratings {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .testimonials {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .testimonial {
+      max-width: 100%;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 1.8em;
+    }
+  
+    .header p {
+      font-size: 0.9em;
+    }
+  
+    .rating {
+      min-width: 100%;
+    }
+  
+    .testimonial {
+      width: 100%;
+    }
+  
+    .profile img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .feedback {
+      font-size: 0.8em;
+    }
+  }
+  
